@@ -25,6 +25,7 @@ function update() {
 }
 
 function draw() {
+  //clearing previous snake pieces
   gameBoard.innerHTML = '';
 
   drawSnake(gameBoard);
